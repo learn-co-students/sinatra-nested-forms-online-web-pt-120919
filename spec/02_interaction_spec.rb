@@ -2,7 +2,6 @@ context "Filling in the Form" do
   before do
     visit "/new"
   end
-
   it "can fill in forms for a pirate and two ships" do
     fill_in("pirate[name]", :with => "Captain Jack Sparrow")
     fill_in("pirate[weight]", :with => "190 lbs")
